@@ -13,11 +13,11 @@ After importing the pandas lybrary, I import the csv
 
 I am droping 'Case Number.1' and 'Case Number.2' after checking they are both exactly the same as 'Case Number'.
 
-I am also droping a series of columns thata re not relevant to calculate the number of deaths by 'Country', such as 'Date', 'Location', 'Name' and others.
+I am also droping a series of columns that are not relevant to calculate the number of deaths by 'Country', such as 'Date', 'Location', 'Name' and others.
 
 # Filtering data
 
-I am now eliminating all the rows of attacks that weren't Fatal. For that, I set the 'Fatal(Y/N)' column and set all its values to 'Y' or 'N'.
+I am now eliminating all the rows of attacks that weren't Fatal. For that, I take the 'Fatal(Y/N)' column and set all its values to 'Y' or 'N'.
 
 Then I drop those with a value different to Y in the column
 
